@@ -1,0 +1,30 @@
+.App{
+    display: grid;
+    place-items: center;
+    background-color: #b8b8b8e3;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+.app__body{
+    display: flex;
+    background-color: #ffffff;
+    height: 100vh;
+    margin-top: 0px;
+    width: 100vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.623);
+}
+
+.Mobile__Alert{
+   display: none;
+}
+
+@media(max-width:760px){
+
+
+.Mobile__Alert{
+    display: none;
+    text-align: center;
+    margin-top: 10%;
+}
+}

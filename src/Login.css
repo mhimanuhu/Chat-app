@@ -1,0 +1,95 @@
+.login{
+    background-color: rgb(224, 222, 222);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.Login__container{
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+  
+}
+.Build__credit{
+   
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    color: rgb(32, 33, 134);
+    width: 100%;
+}
+
+.Login__container > img{
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.Login__container > button {
+
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(117, 54, 54);
+    font-weight: 600;
+    border: 2px solid blue;    
+}
+
+.SignIMG{
+    background-color: white;
+    padding: 0px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+@media (max-width:550px){
+
+    .Login__container{
+        padding: 50px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+      
+    }
+}
+
+
+@media (max-width:440px){
+
+    .Login__container{
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+      
+    }
+
+    .SignIMG{
+        background-color: white;
+        padding: 0px;
+        border-radius: 4px;
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width:375px){
+    .SignIMG{
+        background-color: white;
+        padding: 0px;
+        border-radius: 4px;
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .Login__text{
+        font-size: 8px;
+    }
+    
+}
